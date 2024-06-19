@@ -28,7 +28,7 @@ Main As screen:
         Fill: =RGBA(0, 0, 0, 0.5)
         Height: =131
         OnSelect: |-
-            =UpdateContext({varSwordSlash: true});
+            =UpdateContext({varSwordSlash:true});Reset(Audio4)
         Size: =30
         Text: ="Enter"
         Width: =640
