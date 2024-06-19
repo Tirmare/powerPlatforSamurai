@@ -1,7 +1,8 @@
 LoadingScreen As screen:
     BackgroundImage: =samurai
     ImagePosition: =ImagePosition.Fill
-    OnVisible: =
+    OnVisible: |-
+        =UpdateContext({varRainstorm:false});Reset(Audio6);UpdateContext({varRainstorm:true})
 
     Label1 As label:
         Align: =Align.Center
@@ -13,18 +14,9 @@ LoadingScreen As screen:
         Y: =1006
         ZIndex: =1
 
-    Audio2 As audioPlayback:
-        AutoStart: =true
-        Height: =71
-        Media: ='loud-thunder-192165'
-        Visible: =false
-        Width: =640
-        Y: =40
-        ZIndex: =2
-
     LoadingScreenTimer As timer:
         AutoStart: =true
-        Duration: =3000
+        Duration: =5000
         Height: =70
         OnTimerEnd: =Navigate(Quiz_1,ScreenTransition.Fade)
         Visible: =false
@@ -32,4 +24,13 @@ LoadingScreen As screen:
         X: =170
         Y: =948
         ZIndex: =3
+
+    Audio6 As audioPlayback:
+        AutoStart: =varRainstorm
+        Height: =0
+        Media: ='loud-thunder-192165'
+        Width: =142
+        X: =410
+        Y: =562
+        ZIndex: =4
 

@@ -1,7 +1,8 @@
 Main As screen:
     BackgroundImage: ='1gap'
     ImagePosition: =ImagePosition.Fill
-    OnVisible: =
+    OnVisible: |-
+        =UpdateContext({varSwordSlash:false})
 
     Label2 As label:
         Align: =Align.Center
@@ -30,7 +31,7 @@ Main As screen:
         OnSelect: |-
             =UpdateContext({varSwordSlash: false});
             UpdateContext({varSwordSlash: true});
-            Reset(Audio4)
+            Reset(Audio4);
         Size: =30
         Text: ="Enter"
         Width: =640
@@ -38,9 +39,22 @@ Main As screen:
         ZIndex: =3
 
     Audio4 As audioPlayback:
+        AutoStart: =varSwordSlash
+        Height: =0
         Media: ='sword-slash-and-swing-185432'
-        Start: =varSwordSlash
-        X: =77
-        Y: =637
+        Width: =90
+        X: =472
+        Y: =938
         ZIndex: =4
+
+    Timer1 As timer:
+        Duration: =1000
+        Height: =70
+        OnTimerEnd: =Navigate(LoadingScreen,ScreenTransition.Fade)
+        Start: =varSwordSlash
+        Visible: =false
+        Width: =280
+        X: =162
+        Y: =650
+        ZIndex: =5
 

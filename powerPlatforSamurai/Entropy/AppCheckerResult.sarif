@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "LoadingScreen.Audio2.AccessibleLabel"
+                  "fullyQualifiedName": "Quiz_1.Audio7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "LoadingScreen.Audio2.AccessibleLabel",
+                  "fullyQualifiedName": "Quiz_1.Audio7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "LoadingScreen",
-                "type": "LoadingScreen.Audio2"
+                "module": "Quiz_1",
+                "type": "Quiz_1.Audio7"
               }
             }
           ],
@@ -207,6 +207,36 @@
                 "member": "AccessibleLabel",
                 "module": "Main",
                 "type": "Main.Audio4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoadingScreen.Audio6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LoadingScreen.Audio6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "LoadingScreen",
+                "type": "LoadingScreen.Audio6"
               }
             }
           ],
@@ -968,6 +998,36 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Quiz_1.varBGM"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Quiz_1.varBGM",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "varBGM",
+                "module": "Quiz_1",
+                "type": "Quiz_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 3
         }
       ],
       "tool": {
@@ -1024,6 +1084,23 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "このメディア ファイルは、コントロールの式によって参照されていないため、不要です。削除するとパフォーマンスが向上します。"
+              }
+            },
+            {
+              "id": "app-UnusedVariables",
+              "messageStrings": {
+                "issue": {
+                  "text": "未使用の変数"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "未使用の変数を削除してください。"
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "この変数は、宣言されていますが、どのコントロールによっても参照されていないため、不要です。"
               }
             }
           ],
