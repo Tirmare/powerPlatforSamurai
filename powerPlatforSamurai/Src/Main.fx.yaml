@@ -29,11 +29,6 @@ Main As screen:
         Height: =131
         OnSelect: |-
             =UpdateContext({varSwordSlash: true});
-            Navigate(
-                LoadingScreen,
-                ScreenTransition.Fade
-            );
-            Reset(Audio3)
         Size: =30
         Text: ="Enter"
         Width: =640
