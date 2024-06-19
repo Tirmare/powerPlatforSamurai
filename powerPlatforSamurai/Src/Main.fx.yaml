@@ -36,6 +36,7 @@ Main As screen:
     Audio3 As audioPlayback:
         AutoStart: =varSwordSlash
         Media: ='sword-slash-and-swing-185432'
+        Start: =varSwordSlash
         X: =56
         Y: =628
         ZIndex: =4
