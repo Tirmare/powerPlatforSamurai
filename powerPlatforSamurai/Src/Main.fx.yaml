@@ -26,7 +26,7 @@ Main As screen:
         Color: =RGBA(255, 0, 0, 1)
         Fill: =RGBA(0, 0, 0, 0.5)
         Height: =131
-        OnSelect: =Navigate(LoadingScreen,ScreenTransition.Fade);Set(varSwordSlash,false);Set(varSwordSlash,true)
+        OnSelect: =Set(varSwordSlash,false);Set(varSwordSlash,true)
         Size: =30
         Text: ="Enter"
         Width: =640
@@ -36,6 +36,7 @@ Main As screen:
     Audio3 As audioPlayback:
         AutoStart: =varSwordSlash
         Media: ='sword-slash-and-swing-185432'
+        OnEnd: =Navigate(LoadingScreen,ScreenTransition.Fade);Set(varSwordSlash,false)
         Start: =varSwordSlash
         X: =56
         Y: =628

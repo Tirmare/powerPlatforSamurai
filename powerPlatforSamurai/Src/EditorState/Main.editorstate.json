@@ -38,6 +38,14 @@
           "InvariantPropertyName": "Start",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "false",
+          "InvariantPropertyName": "OnEnd",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "HasDynamicProperties": false,
@@ -128,6 +136,11 @@
           "Category": "Design",
           "PropertyName": "BorderThickness",
           "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Behavior",
+          "PropertyName": "OnEnd",
+          "RuleProviderType": "User"
         }
       ],
       "StyleName": "defaultAudioPlaybackStyle",
