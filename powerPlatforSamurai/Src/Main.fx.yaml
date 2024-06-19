@@ -4,7 +4,7 @@ Main As screen:
 
     Label2 As label:
         Align: =Align.Center
-        Color: =RGBA(83, 144, 164, 1)
+        Color: =RGBA(13, 50, 61, 1)
         Font: =Font.'Lato Black'
         FontWeight: =FontWeight.Bold
         Height: =115

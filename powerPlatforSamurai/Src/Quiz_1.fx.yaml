@@ -163,15 +163,15 @@ Quiz_1 As screen:
 
         Radio1 As radio:
             FontWeight: =FontWeight.Bold
-            Height: =543
+            Height: =533
             Items: =ThisItem.Answers
             LineHeight: =6
             OnChange: =
             OnSelect: =Select(Parent)
-            Size: =15
+            Size: =12
             Width: =624
             X: =16
-            Y: =323
+            Y: =360
             ZIndex: =8
 
         Container4 As groupContainer.manualLayoutContainer:
