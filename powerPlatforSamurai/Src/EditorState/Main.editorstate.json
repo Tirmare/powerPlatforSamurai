@@ -23,11 +23,12 @@
         "DisplayMode",
         "ZIndex",
         "BorderThickness",
+        "AutoStart",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "false",
-          "InvariantPropertyName": "AutoStart",
+          "InvariantPropertyName": "Start",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -54,6 +55,11 @@
         {
           "Category": "Data",
           "PropertyName": "AutoStart",
+          "RuleProviderType": "User"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Start",
           "RuleProviderType": "User"
         },
         {
