@@ -1,0 +1,15 @@
+Landing As screen:
+    BackgroundImage: =slash_
+    ImagePosition: =ImagePosition.Fill
+
+    LandingScreenTmer As timer:
+        AutoStart: =true
+        Duration: =3000
+        Height: =70
+        OnTimerEnd: =Navigate(Main,ScreenTransition.Fade)
+        Visible: =false
+        Width: =280
+        X: =325
+        Y: =953
+        ZIndex: =1
+

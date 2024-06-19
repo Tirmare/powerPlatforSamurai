@@ -1,0 +1,51 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2024-06-12T17:05:07.7940000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "添付ファイル",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "拡張子付きのファイル名",
+      "{FullPath}": "完全パス ",
+      "{HasAttachments}": "添付ファイルあり",
+      "{Identifier}": "識別子",
+      "{IsFolder}": "フォルダーである",
+      "{Link}": "アイテムへのリンク",
+      "{ModerationComment}": "このリスト アイテムのコンテンツの承認に関連付けられているコメント",
+      "{ModerationStatus}": "コンテンツの承認状態",
+      "{Name}": "名前",
+      "{Path}": "フォルダーのパス",
+      "{Thumbnail}": "サムネイル",
+      "{TriggerWindowEndToken}": "ウィンドウ終了のトークンのトリガー",
+      "{TriggerWindowStartToken}": "ウィンドウ開始のトークンのトリガー",
+      "{VersionNumber}": "バージョン番号",
+      "Author": "登録者",
+      "Author#Claims": "登録者 Claims",
+      "ComplianceAssetId": "コンプライアンス資産 ID",
+      "Created": "登録日時",
+      "Editor": "更新者",
+      "Editor#Claims": "更新者 Claims",
+      "ID": "ID",
+      "Modified": "更新日時",
+      "OData__ColorTag": "色タグ",
+      "OData__x30ec__x30d9__x30eb_": "レベル",
+      "OData__x89e3__x7b54_": "解答",
+      "OData__x8cea__x554f__x756a__x53f7_": "質問番号",
+      "OData__x9078__x629e__xff11_": "選択１",
+      "OData__x9078__x629e__xff12_": "選択２",
+      "OData__x9078__x629e__xff13_": "選択３",
+      "OData__x9078__x629e__xff14_": "選択４",
+      "Title": "タイトル"
+    },
+    "DatasetName": "https://pasona-my.sharepoint.com/personal/tiromkai_pasona_co_jp",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Power platform Samurai",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

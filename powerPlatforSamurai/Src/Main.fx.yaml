@@ -1,0 +1,35 @@
+Main As screen:
+    BackgroundImage: ='1gap'
+    ImagePosition: =ImagePosition.Fill
+
+    Label2 As label:
+        Align: =Align.Center
+        Color: =RGBA(83, 144, 164, 1)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =115
+        Size: =60
+        Text: ="Power Quiz"
+        Width: =640
+        Y: =36
+        ZIndex: =1
+
+    Image1 As image:
+        Height: =325
+        Image: ='168-1683047_japanese-transparent-samurai-samurai-kanji'
+        Width: =412
+        X: =228
+        Y: =208
+        ZIndex: =2
+
+    Button1 As button:
+        Color: =RGBA(255, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 0.5)
+        Height: =131
+        OnSelect: =Navigate(LoadingScreen,ScreenTransition.Fade)
+        Size: =30
+        Text: ="Enter"
+        Width: =640
+        Y: =1003
+        ZIndex: =3
+

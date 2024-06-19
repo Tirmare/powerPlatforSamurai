@@ -1,0 +1,80 @@
+WarningWarning As screen:
+    Fill: =RGBA(26, 26, 26, 1)
+    OnVisible: =Reset(Checkbox1)
+
+    Container1 As groupContainer.manualLayoutContainer:
+        Height: =1136
+        Width: =640
+        ZIndex: =1
+
+        Label3 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =92
+            Size: =20
+            Text: ="このゲームは制限時間3分となります"
+            Width: =640
+            Y: =105
+            ZIndex: =1
+
+        Label3_1 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 0, 0, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =85
+            Size: =40
+            Text: ="告知"
+            Width: =640
+            ZIndex: =2
+
+        Label3_2 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =85
+            Size: =20
+            Text: ="次の画面が切り替わった瞬間タイマーがスタートします"
+            Width: =640
+            Y: =233
+            ZIndex: =3
+
+        Label3_3 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =85
+            Size: =20
+            Text: ="制限時間内で多くの質問に回答しましょう"
+            Width: =640
+            Y: =343
+            ZIndex: =4
+
+        Label3_4 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =85
+            Size: =20
+            Text: ="時間切れると強制的にゲーマ終了し、画面上に得点が表示されます"
+            Width: =640
+            Y: =480
+            ZIndex: =5
+
+        Label3_5 As label:
+            Align: =Align.Center
+            Color: =RGBA(153, 207, 236, 1)
+            Height: =85
+            Size: =20
+            Text: ="スマホのマナーモード解除でさらに楽しめます"
+            Width: =640
+            Y: =610
+            ZIndex: =6
+
+        Checkbox1 As checkbox:
+            Color: =RGBA(255, 0, 0, 1)
+            Height: =85
+            OnCheck: =Navigate(Main,ScreenTransition.Fade)
+            Size: =21
+            Text: ="次へ"
+            Width: =250
+            X: =280
+            Y: =908
+            ZIndex: =7
+

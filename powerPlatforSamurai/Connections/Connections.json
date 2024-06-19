@@ -1,0 +1,30 @@
+{
+  "aae57a09-f60e-4022-b9b9-18c368d5409d": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1694/1.0.1694.3752/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://pasona-my.sharepoint.com/personal/tiromkai_pasona_co_jp": {
+        "dataSources": {
+          "Power platform Samurai": {
+            "tableName": "fc706798-c0d5-42f3-a023-b187c654ff7a"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Power platform Samurai"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "aae57a09-f60e-4022-b9b9-18c368d5409d"
+  }
+}

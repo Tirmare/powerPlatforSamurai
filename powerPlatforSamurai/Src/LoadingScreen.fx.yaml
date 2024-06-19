@@ -1,0 +1,35 @@
+LoadingScreen As screen:
+    BackgroundImage: =samurai
+    ImagePosition: =ImagePosition.Fill
+    OnVisible: =
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =100
+        Size: =40
+        Text: ="Loading..."
+        Width: =640
+        Y: =1006
+        ZIndex: =1
+
+    Audio2 As audioPlayback:
+        AutoStart: =true
+        Height: =71
+        Media: ='loud-thunder-192165'
+        Visible: =false
+        Width: =640
+        Y: =40
+        ZIndex: =2
+
+    LoadingScreenTimer As timer:
+        AutoStart: =true
+        Duration: =3000
+        Height: =70
+        OnTimerEnd: =Navigate(Quiz_1,ScreenTransition.Fade)
+        Visible: =false
+        Width: =280
+        X: =170
+        Y: =948
+        ZIndex: =3
+
