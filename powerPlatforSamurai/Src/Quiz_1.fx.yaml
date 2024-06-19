@@ -110,7 +110,6 @@ Quiz_1 As screen:
             RadiusBottomRight: =30
             RadiusTopLeft: =30
             RadiusTopRight: =30
-            Size: =20
             Text: =ThisItem.Question
             Width: =612
             X: =16
@@ -164,15 +163,15 @@ Quiz_1 As screen:
 
         Radio1 As radio:
             FontWeight: =FontWeight.Bold
-            Height: =723
+            Height: =543
             Items: =ThisItem.Answers
             LineHeight: =6
             OnChange: =
             OnSelect: =Select(Parent)
-            Size: =20
+            Size: =15
             Width: =624
             X: =16
-            Y: =234
+            Y: =323
             ZIndex: =8
 
         Container4 As groupContainer.manualLayoutContainer:
