@@ -39,6 +39,7 @@ Main As screen:
         OnEnd: =Navigate(LoadingScreen,ScreenTransition.Fade);Set(varSwordSlash,false)
         Reset: =true
         Start: =varSwordSlash
+        Visible: =false
         X: =56
         Y: =628
         ZIndex: =4
