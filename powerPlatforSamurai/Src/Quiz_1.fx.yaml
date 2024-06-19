@@ -168,7 +168,6 @@ Quiz_1 As screen:
             LineHeight: =6
             OnChange: =
             OnSelect: =Select(Parent)
-            Size: =12
             Width: =624
             X: =16
             Y: =360
