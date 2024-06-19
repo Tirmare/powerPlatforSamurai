@@ -5,6 +5,7 @@
     "App": 1,
     "Audio1": 30,
     "Audio2": 51,
+    "Audio3": 54,
     "Button1": 49,
     "Button2": 19,
     "Button3": 44,
@@ -57,7 +58,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/19/2024 11:28:46",
+  "HeaderLastSavedDateTimeUTC": "06/19/2024 11:30:50",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "aae57a09-f60e-4022-b9b9-18c368d5409d": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/129d14476ff24b70bdf915e5cbd5207e\""
@@ -80,6 +81,7 @@
     "acc65aff7d09f9855f9c7b9720f303e1": "a153e746-33f3-4233-a301-64f9dded2db2.jpg",
     "c0e4d662ce6d66af240a935393e7a88b": "dfb750cf-d20e-4a67-9432-9da23660504d.gif",
     "cross-3-p1": "bfdfb6ba-cc3d-4a8a-bd36-ab569763b456.svg",
+    "drawing-sword-from-scabbard-3-different-speeds-sound-effect-150574": "c8ce4fc9-59f2-4a28-bf19-f3bc5fc48731.mp3",
     "flat,750x,075,f-pad,750x1000,f8f8f8": "7ed452e7-fcbf-4a4d-97a4-e9652d0f9e7e.jpg",
     "game-over-game": "cad7bafd-503e-43c6-8f85-61ee6cd1ac16.gif",
     "giphy": "02d4de4d-6b8d-4061-9bed-1f1d6b649977.gif",
@@ -98,6 +100,7 @@
     "Scroll-Free-Download-PNG": "ff3d0e2f-c7a4-4b94-8e1f-2e003e682e86.png",
     "slash_": "d94863d5-a937-47e8-b27f-9c3ab1410073.gif",
     "success-tick-dribbble": "3289eb34-5989-40e5-ba5e-a4e0c9e56086.gif",
+    "sword-slash-and-swing-185432": "fa858165-f61d-4e33-b6a1-fc449ff9e676.mp3",
     "taiko-amp-brams-scene-171340": "2a68df25-faae-4c22-b99d-2d4663eca52c.mp3",
     "tnimg_j361_2": "16f91850-5596-4157-b3c4-755577f85994.png",
     "tumblr_bb88ecfb4169b445f777ffd7e297294c_a4f958f3_540": "00b40211-a853-4019-8ad3-2d0caac2189b.gif"
@@ -119,6 +122,7 @@
     "acc65aff7d09f9855f9c7b9720f303e1": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/Assets0Images0a153e746-33f3-4233-a301-64f9dded2db2.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A25%3A55Z&ske=2024-06-20T11%3A40%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A40%3A55Z&sr=b&sp=r&sig=JAc283s9FlwSjxpXyEdcpEN5xAxbFRdBLer5qYWMZVw%3D",
     "c0e4d662ce6d66af240a935393e7a88b": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/Assets0Images0dfb750cf-d20e-4a67-9432-9da23660504d.gif?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A25%3A55Z&ske=2024-06-20T11%3A40%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A40%3A55Z&sr=b&sp=r&sig=6q4uZdQUtDmE0NnjGTnpAU%2BdoY%2FekAziMgY8XshlFWY%3D",
     "cross-3-p1": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/Assets0Images0bfdfb6ba-cc3d-4a8a-bd36-ab569763b456.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A25%3A55Z&ske=2024-06-20T11%3A40%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A40%3A55Z&sr=b&sp=r&sig=iYBEBPbbv08YDkax72RFYFFDGM1q85kT4ThWC1u3W6Y%3D",
+    "drawing-sword-from-scabbard-3-different-speeds-sound-effect-150574": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/c3da5b75-9047-4dd5-8a12-8742bdc27eff.mp3?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A30%3A32Z&ske=2024-06-20T11%3A45%3A32Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A45%3A32Z&sr=b&sp=r&sig=42xlZE3faq7rgm4qxeWdnTzKiHMUNpZBxbisL8HU1bo%3D",
     "flat,750x,075,f-pad,750x1000,f8f8f8": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/Assets0Images07ed452e7-fcbf-4a4d-97a4-e9652d0f9e7e.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A25%3A55Z&ske=2024-06-20T11%3A40%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A40%3A55Z&sr=b&sp=r&sig=H%2BUebGoD05dQXwyyEf4AKRzuzDdYobK54iyv2ydHmtQ%3D",
     "game-over-game": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/Assets0Images0cad7bafd-503e-43c6-8f85-61ee6cd1ac16.gif?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A25%3A55Z&ske=2024-06-20T11%3A40%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A40%3A55Z&sr=b&sp=r&sig=VTIiq5y6K5EDgwM3d5%2BqqyGALd1or1xoodttoW%2FdXB8%3D",
     "giphy": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/Assets0Images002d4de4d-6b8d-4061-9bed-1f1d6b649977.gif?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A25%3A55Z&ske=2024-06-20T11%3A40%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A40%3A55Z&sr=b&sp=r&sig=VNVQJiocZqSb26P7axIosxkVJZ3OAyefJZbPFdVyZpk%3D",
@@ -137,6 +141,7 @@
     "Scroll-Free-Download-PNG": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/Assets0Images0ff3d0e2f-c7a4-4b94-8e1f-2e003e682e86.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A25%3A55Z&ske=2024-06-20T11%3A40%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A40%3A55Z&sr=b&sp=r&sig=URqdf23O1EKWW1BNS2PxsdpD4rCCXiuo2tLCZir6FsM%3D",
     "slash_": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/Assets0Images0d94863d5-a937-47e8-b27f-9c3ab1410073.gif?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A25%3A55Z&ske=2024-06-20T11%3A40%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A40%3A55Z&sr=b&sp=r&sig=9Wh7hm%2B4%2FzmLetGPjypvRW3MtEKBWnazQNoZp4zN3Rw%3D",
     "success-tick-dribbble": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/Assets0Images03289eb34-5989-40e5-ba5e-a4e0c9e56086.gif?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A25%3A55Z&ske=2024-06-20T11%3A40%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A40%3A55Z&sr=b&sp=r&sig=QI31nNZNyQKJVEK23%2FOYzARSrs3PaHWrywg467%2Ff8gM%3D",
+    "sword-slash-and-swing-185432": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/4a9f0a22-b32c-4fcc-a940-5fc550ae0852.mp3?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A30%3A49Z&ske=2024-06-20T11%3A45%3A49Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A45%3A49Z&sr=b&sp=r&sig=g3oHxD0KnOiR2gufWuwgnfHQ77%2FG4hyMmyyfdZU5tCM%3D",
     "taiko-amp-brams-scene-171340": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/Assets0Audio02a68df25-faae-4c22-b99d-2d4663eca52c.mp3?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A25%3A55Z&ske=2024-06-20T11%3A40%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A40%3A55Z&sr=b&sp=r&sig=Hmm5xVdgcm80BuKT1%2BQKI9z4tAdMr4bpQ4pKNXjpfH0%3D",
     "tnimg_j361_2": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/Assets0Images016f91850-5596-4157-b3c4-755577f85994.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A25%3A55Z&ske=2024-06-20T11%3A40%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A40%3A55Z&sr=b&sp=r&sig=VXuLISo5%2B9jsncI4cNJp9lbFEtDW6yAzUGRsCOsBZm0%3D",
     "tumblr_bb88ecfb4169b445f777ffd7e297294c_a4f958f3_540": "https://docserverpwaprodwjp.blob.core.windows.net/5f34be17-835d-4202-b2b4-c64a7c6f8950-1/resource/Assets0Images000b40211-a853-4019-8ad3-2d0caac2189b.gif?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-06-19T11%3A25%3A55Z&ske=2024-06-20T11%3A40%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-06-20T11%3A40%3A55Z&sr=b&sp=r&sig=SqOROdeMHxWGfjBp6NxtKf%2FnibF5CZ0A2xfcSPWCO6o%3D"
@@ -171,6 +176,7 @@
     "App": {},
     "Audio1": {},
     "Audio2": {},
+    "Audio3": {},
     "Button1": {},
     "Button2": {},
     "Button3": {},
@@ -270,6 +276,7 @@
     "App": 0,
     "Audio1": 29,
     "Audio2": 12,
+    "Audio3": 0,
     "Button1": 11,
     "Button2": 18,
     "Button3": 43,
@@ -321,8 +328,10 @@
     "wronganswerContainerTimer": 33
   },
   "ResourcesJsonIndices": {
+    "Audio-drawing-sword-from-scabbard-3-different-speeds-sound-effect-150574": 39,
     "Audio-loud-thunder-192165": 21,
     "Audio-SampleAudio": 19,
+    "Audio-sword-slash-and-swing-185432": 40,
     "Audio-taiko-amp-brams-scene-171340": 20,
     "Image-0220dad7b5d390c3178815008a628ace": 26,
     "Image-107265": 22,

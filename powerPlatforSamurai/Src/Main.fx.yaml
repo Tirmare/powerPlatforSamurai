@@ -33,3 +33,9 @@ Main As screen:
         Y: =1003
         ZIndex: =3
 
+    Audio3 As audioPlayback:
+        Media: ='sword-slash-and-swing-185432'
+        X: =56
+        Y: =628
+        ZIndex: =4
+
