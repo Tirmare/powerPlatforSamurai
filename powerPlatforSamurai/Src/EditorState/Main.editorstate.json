@@ -23,14 +23,7 @@
         "DisplayMode",
         "ZIndex",
         "BorderThickness",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "false",
-          "InvariantPropertyName": "AutoStart",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "AutoStart",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,

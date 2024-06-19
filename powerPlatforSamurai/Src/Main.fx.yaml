@@ -34,7 +34,6 @@ Main As screen:
         ZIndex: =3
 
     Audio3 As audioPlayback:
-        AutoStart: =varSwordSlash
         Media: ='sword-slash-and-swing-185432'
         OnEnd: =Navigate(LoadingScreen,ScreenTransition.Fade);Set(varSwordSlash,false)
         Start: =varSwordSlash
