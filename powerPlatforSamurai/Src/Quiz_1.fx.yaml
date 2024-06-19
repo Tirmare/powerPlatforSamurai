@@ -215,7 +215,9 @@ Quiz_1 As screen:
                             varScore,
                             varScore + 10
                         )
-                    )
+                    );UpdateContext({varSwordSplash: false});
+                    UpdateContext({varSwordSplash: true});
+                    Reset(Audio8);
                 Text: =
                 Width: =197
                 X: =100
@@ -379,8 +381,19 @@ Quiz_1 As screen:
                 ZIndex: =4
 
     Audio7 As audioPlayback:
+        AutoStart: =varBGM
+        Height: =0
         Media: ='taiko-amp-brams-scene-171340'
-        X: =102
-        Y: =285
+        Width: =375
+        X: =122
+        Y: =192
         ZIndex: =6
+
+    Audio8 As audioPlayback:
+        AutoStart: =varSwordSplash
+        Height: =0
+        Media: ='sword-slash-and-swing-185432'
+        X: =102
+        Y: =192
+        ZIndex: =7
 
