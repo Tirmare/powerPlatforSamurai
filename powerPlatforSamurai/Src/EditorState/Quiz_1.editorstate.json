@@ -197,7 +197,7 @@
       "MetaDataIDKey": "",
       "Name": "Audio7",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -322,7 +322,7 @@
       "MetaDataIDKey": "",
       "Name": "Audio8",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
