@@ -1148,6 +1148,66 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.giphy_1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.giphy_1",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "giphy_1",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.ef5e4b4d024c66b42311e337ae8ab4cc"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.ef5e4b4d024c66b42311e337ae8ab4cc",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "ef5e4b4d024c66b42311e337ae8ab4cc",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 2
         }
       ],
       "tool": {

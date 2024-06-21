@@ -397,18 +397,3 @@ Quiz_1 As screen:
         Y: =192
         ZIndex: =7
 
-    Image5 As image:
-        Height: =212
-        Image: =giphy_1
-        Width: =209
-        Y: =924
-        ZIndex: =8
-
-    Image5_1 As image:
-        Height: =228
-        Image: =giphy_1
-        Width: =222
-        X: =418
-        Y: =908
-        ZIndex: =9
-
