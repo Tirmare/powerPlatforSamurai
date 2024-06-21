@@ -6,7 +6,7 @@ Landing As screen:
         AutoStart: =true
         Duration: =4000
         Height: =70
-        OnTimerEnd: =Navigate(Main,ScreenTransition.Fade)
+        OnTimerEnd: =Navigate(WarningWarning,ScreenTransition.Fade)
         Visible: =false
         Width: =280
         X: =325
