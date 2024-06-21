@@ -63,7 +63,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/21/2024 02:17:04",
+  "HeaderLastSavedDateTimeUTC": "06/21/2024 02:18:42",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "aae57a09-f60e-4022-b9b9-18c368d5409d": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/129d14476ff24b70bdf915e5cbd5207e\""
@@ -325,7 +325,7 @@
     "Image3": 34,
     "Image4": 40,
     "Image5": 49,
-    "Image5_1": 49,
+    "Image5_1": 50,
     "Label1": 16,
     "Label2": 9,
     "Label3": 3,

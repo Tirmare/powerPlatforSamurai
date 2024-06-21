@@ -1,6 +1,6 @@
 Quiz_1 As screen:
     BackgroundImage: =
-    Fill: =RGBA(255, 255, 255, 1)
+    Fill: =RGBA(13, 50, 61, 1)
     ImagePosition: =ImagePosition.Fill
     OnVisible: |-
         =ClearCollect(
@@ -398,10 +398,10 @@ Quiz_1 As screen:
         ZIndex: =7
 
     Image5 As image:
-        Height: =228
+        Height: =212
         Image: =giphy_1
-        Width: =222
-        Y: =907
+        Width: =209
+        Y: =924
         ZIndex: =8
 
     Image5_1 As image:
