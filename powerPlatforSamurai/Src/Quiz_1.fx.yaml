@@ -1,6 +1,6 @@
 Quiz_1 As screen:
     BackgroundImage: =
-    Fill: =RGBA(13, 50, 61, 1)
+    Fill: =RGBA(255, 255, 255, 1)
     ImagePosition: =ImagePosition.Fill
     OnVisible: |-
         =ClearCollect(
@@ -194,6 +194,7 @@ Quiz_1 As screen:
 
             ButtonCanvas2 As ボタン:
                 Appearance: ='ButtonCanvas.Appearance'.Transparent
+                BorderStyle: =""
                 DisplayMode: =DisplayMode.Edit
                 Height: =172
                 OnSelect: |-
@@ -226,6 +227,7 @@ Quiz_1 As screen:
 
         TextCanvas1_1 As テキスト:
             Align: ='TextCanvas.Align'.Center
+            BorderStyle: =""
             DisplayMode: =DisplayMode.Edit
             Height: =82
             Size: =40
@@ -236,6 +238,7 @@ Quiz_1 As screen:
             ZIndex: =10
 
         TextCanvas2_1 As テキスト:
+            BorderStyle: =""
             DisplayMode: =DisplayMode.Edit
             Height: =61
             Size: =30

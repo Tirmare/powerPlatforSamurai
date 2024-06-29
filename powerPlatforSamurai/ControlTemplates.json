@@ -223,7 +223,7 @@
     "Name": "PowerApps_CoreControls_TextCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "テキスト",
-    "Version": "0.0.37"
+    "Version": "0.0.38"
   },
   "ボタン": {
     "CustomGroupControlTemplateName": "",
@@ -238,6 +238,6 @@
     "Name": "PowerApps_CoreControls_ButtonCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "ボタン",
-    "Version": "0.0.41"
+    "Version": "0.0.42"
   }
 }
